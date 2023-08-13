@@ -10,12 +10,9 @@ public class Employees {
     private String cpf ;
     private LocalDate birthDate;
     private String phone;
-    private Boolean hasChildren;
     private String nearbyAirport;
     private Double dayOffsAvailable;
-    private Integer childrenQty;
     private String pixKey;
-    private String childrenNames;
     private String password;
     private Boolean accountNonExpired;
     private Boolean accountNonLocked;
@@ -23,11 +20,14 @@ public class Employees {
     private Boolean enabled;
     private String token;
     private LocalDate createdAt;
-    private String maritalState;
     private LocalDate startOnTeam;
     private String functionAtWork;
 
     // Personal Information
+    private Integer childrenQty;
+    private Boolean hasChildren;
+    private String childrenNames;
+    private String maritalState;
 
     private String shirtSize;
 
